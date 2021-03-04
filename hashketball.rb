@@ -168,9 +168,9 @@ def player_numbers(team)
   number_array = []
   game_hash.each do |key, value|
     if team == value[:team_name]
-      value.each do |key2, value2|
+      value[:players].each do |key2, value2|
         binding.pry
-        #number_array << value2v[:number]
+        #number_array << value2[:number]
       end
     end
   end
