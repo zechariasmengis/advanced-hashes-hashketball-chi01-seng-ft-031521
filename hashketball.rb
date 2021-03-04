@@ -191,7 +191,7 @@ def big_shoe_rebounds
   game_hash.each do |key, value|
     value[:players].each do |key2|
       if key2[:rebounds] > rebound_return
-        key2[:rebounds] = rebound_return
+        rebound_return = key2[:rebounds]
       end
     end
   end
