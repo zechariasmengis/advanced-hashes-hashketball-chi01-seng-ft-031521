@@ -175,6 +175,11 @@ def player_numbers(team)
   end
   number_array
 end
+
+def player_stats(name)
+  stats_hash = {}
+  game_hash
+end
   
   
   
