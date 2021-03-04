@@ -170,8 +170,7 @@ def player_numbers(team)
     if team == value[:team_name]
       value.each do |key2, value2|
         binding.pry
-        #number_array << value2
-        [:number]
+        #number_array << value2v[:number]
       end
     end
   end
